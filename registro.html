@@ -21,7 +21,10 @@
 
     <form action="">
         Nombre: <input type="text" id="nombre" name="nombre" value=""> <br>
-        apellido: <input type="text" id="apellido" name="apellido" value="" placeholder="Apellido" ><br>
+        <label for="apellido">
+            apellido: <input type="text" id="apellido" name="apellido" value="" placeholder="Apellido" ><br>
+        </label>
+        
         Fecha nacimiento: <input type="date" id="FechaNacimiento" name="FechaNacimiento"><br><br>
 
         Estado civil: 
@@ -37,18 +40,24 @@
         <textarea name="Valorinicial" id="Valorinicial" cols="30" rows="10" >    
         </textarea> <br><br>
 
-        lista de hobbies: <br>
+        <fieldset>
+            lista de hobbies: <br>
         Futbol: <input type="checkbox" id="futbol" name="futbol" value="1"><br>
         Tennis: <input type="checkbox" id="tennis" name="tennis" value="2"><br>
         Nataión: <input type="checkbox" id="Natacion" name="Natacion" value="3"><br><br>
         Se usa para aprobar los valores
+        </fieldset>
 
         Color Favorito: <br>
         Azul: <input type="radio" id="RadioAzul" name="color"><br>
         Rojo: <input type="radio" id="RadioRojo" name="color"><br>
         Verde: <input type="radio" id="RadioVerde" name="color"><br>
 
+        <input type="submit" id="btnEnviar" name="btnEnviar" value="Guardar" ><br>
+        <input type="reset" value="Reset"><br>
+        <label for=""><input type="number" id="edad" max="50" min="10" ></label>
 
+        
 
 
 
