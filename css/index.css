@@ -15,4 +15,26 @@ div {
     margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 30px; 
+    border: 3px red dotted ;
+    padding-left: 10px;
+    padding: 25px;
+    background-color: palegreen;
+    background-position-x: 50% 50%;
+    <!---svg -->
+
+    background-position: right bottom ;
+    box-sizing: content-box;
+
+    font-family: 'Times new roman' 'Times' 'serif';
+    font-size: 14px;
+
+
+
+
+
+}
+
+img:active{
+    width: 200px;
+    height: 300px;
 }

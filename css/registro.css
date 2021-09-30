@@ -1,0 +1,12 @@
+.gradiente{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-image: radial-gradient();
+}
+
+.color-rojo:hover{
+    color: red;
+    font-size: 35;
+
+}
