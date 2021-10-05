@@ -1,4 +1,75 @@
-*{
-    padding: 0; 
-    margin: 0;
+
+div{
+    margin:5px;
+    padding: 5px;
+}
+body, input {
+    background-color: aqua;
+}
+.error{
+    border-color:red;
+
+}
+.section-dos,
+.section-tres{
+    height: 100px;
+    background-color: burlywood;
+}
+
+.section-dos div {
+    height: 20px;
+    background-color: blueviolet;
+}
+.section-tres > article > div{
+    height: 20px;
+    background-color: blueviolet;
+
+}
+
+/* adyacencia*/
+
+header + section{
+    background-color: blue;
+    background-image: url("../media/img/20673.png") ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /*Fijara la imagen o no*/
+    background-attachment: scroll;
+    
+}
+
+/*Selectores de atributos*/
+[type]{
+    height: 35px;
+    background-color: coral;
+}
+
+
+[class~="section-tres"]{
+    background-color: bisque;
+}
+
+
+
+header{
+    background-color: gray;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+}
+section-uno{
+    margin-top: 70px ;
+
+}
+nav{
+    height: 100vh;
+    width: 40px;
+    position: absolute;
+    background-color: yellow;
+}
+.main{
+    position: relative;
+    top: 70px;
+    left: 30px
+
 }
