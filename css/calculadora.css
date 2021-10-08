@@ -1,0 +1,34 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.btnNumero,
+.btnOperacion{
+    width: 25%;
+    
+}
+#resultado{
+    width: 100%;
+    font-size: 50px;
+}
+
+.btnNumero{
+    background-color: bisque;
+}
+.btnOperacion{
+    background-color: darkgoldenrod;
+    
+}
