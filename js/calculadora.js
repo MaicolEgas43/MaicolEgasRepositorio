@@ -4,7 +4,7 @@ window.onload = function(){
 
 // Utilizables para todas las operaciones
 let operandoUno = 0;
-let OperandoDos = 0;
+let operandoDos = 0;
 let operacion="";
 
 
@@ -39,14 +39,15 @@ function escribirNumero(event){
 function realizarOperacion(event){
     let operacionActual = event.target.textContent;
     if(operacionActual === "="){
-        OperandoDos = document.getElementById("resultado").value;
+        operandoDos = document.getElementById("resultado").value;
         let resultado;
 
         //Evalua un valor de una variable y segun su valor ejecuta una acción 
         // Accion = Case 
         switch (operacion){
             case "+":
-                resultado = parseFloat(operandoUno) + parseFloat(operandoDos);
+                //resultado = parseFloat(operandoUno) + parseFloat(operandoDos);
+                resultado = sumar(operandoUno,operandoDos)
                 break;
             case "-":
                 resultado = parseFloat(operandoUno) - parseFloat(operandoDos);
@@ -70,4 +71,9 @@ function realizarOperacion(event){
         document.getElementById("resultado").value = "";
         operacion = operacionActual;
     }
+}
+function sumar(numeroUno, numeroDos){
+    let sumar = parseFloat(numeroUno)  +parseFloat(numeroDos);
+    return sumar;
+
 }
