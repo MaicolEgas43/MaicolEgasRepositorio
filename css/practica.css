@@ -1,0 +1,18 @@
+table{
+    border: solid;
+    
+}
+.th{
+    background-color: tomato;
+}
+#tr1,
+#tr3,
+#tr5{
+    background-color: aqua;
+}
+
+#tr2,
+#tr4{
+    background-color: azure;
+    font-weight: bold ;
+}
