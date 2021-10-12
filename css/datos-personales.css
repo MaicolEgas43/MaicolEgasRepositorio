@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    background-color: black;
+}
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background-color: blue;
+    z-index: -50;
+}
+
+section{
+    margin-left: 150px;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: darkcyan;
+}
+.div-form{
+    width: 100%;
+    margin: 0 !important;
+
+}
+.div-form div{
+    margin: 15px;
+    
+
+}
+label{
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+}
+input, select{
+    width: 30px;
+    height: 20px;
+    font-size: 16px;
+}
+table{
+    width: 100%;
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+table th,
+table td{
+    border: 1px black solid;
+
+
+}
+.div-btn{
+    width: 50%;
+    margin-left: 15%;
+}

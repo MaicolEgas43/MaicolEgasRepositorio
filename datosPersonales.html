@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/datos-personales.css">
+    <title>Datos personales</title>
+</head>
+<body>
+    <header></header>
+    <nav>
+
+    </nav>
+    <section>
+        <article>
+            <div class="div-form">
+                <form action="">
+                    <div>
+                        <label for="nombres">Nombres</label>
+                        <input type="text" id="nombres" name="nombres">
+                    </div>
+                    <div>
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos">
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad">
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento">Fecha Nacimiento</label>
+                        <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+
+                    </div>
+                    <div>
+                        <label for="estadoCivil">Estado Civil</label>
+                        <select name="estadoCivil" id="estadoCivil">
+                            <option value="0">Seleccione una opción</option>
+                            <option value="1">Soltero</option>
+                            <option value="2">Casado</option>
+                            <option value="3">unión libre</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="telefono" name="telefono">Telefono:</label>
+                        <input type="number" id="telefono" name="telefono" pattern="[0-9]">
+                    </div>
+                    <div>
+                        <label for="direccion">Direccion:</label>
+                        <input type="text" id="direccion" name="direccion">
+                    </div>
+                    <div class="div-btn">
+                        <button type="submit" value="Guardar" id="btnGuardar">
+                        <button type="reset" id="btnreset">Cancelar</button>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </article>
+        <article>
+            <div class="div-tabla">
+                <table id="datosTabla">
+                    <caption>Tabla datos personales</caption>
+                    <thead>
+                        <tr>
+                            <th>Nombres</th>
+                            <th>Apellidos</th>
+                            <th>Edad</th>
+                            <th>Fecha de Nacimiento</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+    </section>
+    <script src="js/datosPersonales.js"></script>
+    
+</body>
+</html>
