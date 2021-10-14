@@ -24,6 +24,9 @@ function cargarDatosStorage(){
 
         datosStorage = [];
     }
+    datosStorage.forEach( datos => {
+        
+    });
 }
 function guardarDatos (event){
     let nombres = document.getElementById("nombres" ).value;
@@ -65,6 +68,8 @@ function guardarDatos (event){
     html += "    <td>" + estadoCivil + "</td>";
     html += "    <td>" + telefono + "</td>";
     html += "    <td>" + direccion + "</td>";
+    html += "    <td>";
+    htm
     html += "</tr>";
 
     tabla.tBodies[0].innerHTML += html;
